@@ -16,7 +16,7 @@ const Hero = (props) => (
 
         Hi, I am Harshit<br />
         I am an Android Developer and a competitive programmer<br />
-        Below you can find my various projects that I have coded in Kotlin and Java.<br />
+        Below you can find my various projects that I have coded in Kotlin, Java and various other languages.<br />
         I am also a 3 star coder at codechef.
 
 
