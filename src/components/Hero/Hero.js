@@ -16,12 +16,11 @@ const Hero = (props) => (
 
         Hi, I am Harshit<br />
         I am an Android Developer and a competitive programmer<br />
-        Below you can find my various projects that I have coded in Kotlin, Java and various other languages.<br />
+        Below you can find my various projects that I have coded in Kotlin, Java and various other programminglanguages.<br />
         I am also a 3 star coder at codechef.
 
 
         </SectionText>
-        <Button onClick={props.handleClick}>Learn More</Button>
       </LeftSection>
     </Section>
   </>

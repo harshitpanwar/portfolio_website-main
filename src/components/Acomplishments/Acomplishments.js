@@ -6,8 +6,19 @@ import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
 const data = [
   { number: 15, text: 'Open Source Projects'},
  
-  { number: 174, text: 'Github contributions in 2021', },
+  { number: 200, text: 'Github contributions in 2021', },
+
+
 ];
+
+const data2 = [
+
+  { number: 5, text: 'stars at Hacker Rank', },
+
+  { number: 3, text: 'stars at CodeChef', },
+
+
+]
 
 const Acomplishments = () => (
   <Section>
@@ -19,6 +30,14 @@ const Acomplishments = () => (
           <BoxText>{card.text}</BoxText>
         </Box>
       ))}
+
+      {data2.map((card, index) => (
+              <Box key={index}>
+                <BoxNum>{`${card.number}`}</BoxNum>
+                <BoxText>{card.text}</BoxText>
+              </Box>
+            ))}
+
     </Boxes>
     <SectionDivider/>
   </Section>
