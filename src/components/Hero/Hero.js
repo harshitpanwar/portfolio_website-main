@@ -1,7 +1,6 @@
 import React from 'react';
 
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
 const Hero = (props) => (
@@ -14,9 +13,10 @@ const Hero = (props) => (
         </SectionTitle>
         <SectionText>
 
-        Hi, I am Harshit<br />
-        I am an Android Developer and a competitive programmer<br />
-        Below you can find my various projects that I have coded in Kotlin, Java and various other programming languages.<br />
+        Hi! I'm Harshit, a software engineer based in Bangalore, India.<br/>
+
+        I enjoy creating things that live on the internet, whether that be mobile applications or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences.
+
 
         </SectionText>
       </LeftSection>

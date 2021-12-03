@@ -7,22 +7,24 @@ import Timeline from '../components/TimeLine/TimeLine';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 import Lottie from '../components/Lottie/Lottie';
+import { BrowerRouter } from 'react-router-dom';
 
 const Home = () => {
   return (
-    <Layout>
-      <Section grid>
+  
+        <Layout>
+        <Section grid>
         <Hero />
         <BgAnimation />
+        </Section>
         <Lottie/>
+        <Projects />
+        <Technologies />
+        <Timeline />
+        <Acomplishments />
+        </Layout>
 
 
-      </Section>
-      <Projects />
-      <Technologies />
-      <Timeline />
-      <Acomplishments />
-    </Layout>
   );
 };
 
