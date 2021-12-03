@@ -11,7 +11,7 @@ export const projects = [
   {
     title: 'Flappy Bird AI',
     description:"This flappy bird AI has been coded using the neat library in python which uses reinforcement learning .\n At the starting 15 birds(this number depends on the user which he/she can specify) are there which play randomly.\nThe bird which is able to score the highest is allowed to reproduce in this way the birds learn very quickly how to play the game.",
-    image: '/images/flappy.png',
+    image: 'https://s.wsj.net/public/resources/images/MK-CK014B_FLAPP_G_20140211190239.jpg',
     tags: ['Python', 'neat'],
     source: 'https://github.com/harshitpanwar/flappy-bird-AI',
     visit: 'https://github.com/harshitpanwar/flappy-bird-AI',
@@ -20,7 +20,7 @@ export const projects = [
   {
     title: 'Dark Memer Discord Bot',
     description: "This is a Discord bot coded in python . To use any commands relating to dark memer use '.' in front of the command. It uses reddit api to get memes. Also it can reply to certain question as yes or no. It can google and search wikipedia and present the top result",
-      image: '/images/darkmemer.png',
+      image: 'https://bs-uploads.toptal.io/blackfish-uploads/components/blog_post_page/content/cover_image_file/cover_image/687808/cover-how-to-make-a-discord-bot-7c0fe302b98b05b145682344b3a4ec59.png',
       tags: ['Python', 'Reddit Api'],
     source: 'https://github.com/harshitpanwar/Dark-Memer-Discord-Bot',
     visit: 'https://github.com/harshitpanwar/Dark-Memer-Discord-Bot',

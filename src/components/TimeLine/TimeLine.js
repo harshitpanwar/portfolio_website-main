@@ -46,7 +46,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      I am a competitive programmer and Android app developer from Bangalore, India. I love coding and solving algorithmic problems. I also have a passion for learning and putting my ideas into reality.
+      I love coding and solving algorithmic problems. I also have a passion for learning and making my ideas into reality.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
