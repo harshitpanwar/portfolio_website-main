@@ -43,3 +43,7 @@ export const TimeLineData = [
   { year: 2020, text: 'Worked as an open source contributer', },
   { year: 2021, text: 'Started Competitive Programming and React', },
 ];
+
+export const PortfolioImage = [
+  {source:'/images/testimage.jpeg'}
+];
