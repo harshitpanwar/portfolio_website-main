@@ -2,7 +2,9 @@ import React, { useState, useRef, useEffect } from 'react';
 
 import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { TimeLineData } from '../../constants/constants';
+import { projects, TimeLineData } from '../../constants/constants';
+import Img from '../Projects/ProjectsStyles'
+import { PortfolioImage } from '../../constants/constants';
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
@@ -45,6 +47,7 @@ const Timeline = () => {
   return (
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
+      
       <SectionText>
       I love coding and solving algorithmic problems. I also have a passion for learning and making my ideas into reality.
       </SectionText>
