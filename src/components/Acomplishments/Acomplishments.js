@@ -6,7 +6,7 @@ import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
 const data = [
   { number: 18, text: 'Open Source Projects'},
  
-  { number: 260, text: 'Github contributions in 2021', },
+  { number: 270, text: 'Github contributions in 2021', },
 
 
 ];
