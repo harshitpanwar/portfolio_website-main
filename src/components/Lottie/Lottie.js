@@ -39,7 +39,7 @@ const Lottie = (props) => {
                         
             </SectionText>     
 
-            <a  style={{marginRight:'15px'}} href="https://drive.google.com/file/d/16lbFl5ls1Eie3WDp8QC3s0ySBRnKCRfX/view">
+            <a  style={{marginRight:'15px'}} href="https://drive.google.com/file/d/1t1RfODDE-M30qaV_2mcHWcOMDeoU5HY5/view?usp=sharing">
             <Button 
             >My Resume</Button>
             </a>
